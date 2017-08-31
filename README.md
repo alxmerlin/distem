@@ -23,6 +23,7 @@ applications targetting such environments.
 * Lucas Nussbaum <lucas.nussbaum@loria.fr>
 * Luc Sarzyniec <luc.sarzyniec@inria.fr>
 * Emmanuel Jeanvoine <emmanuel.jeanvoine@inria.fr>
+* Alexandre Merlin <alexandre.merlin@inria.fr>
 
 ## License
 
