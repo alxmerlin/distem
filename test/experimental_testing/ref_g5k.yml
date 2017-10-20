@@ -4,7 +4,7 @@ bandwidth:
 latency:
   error: 20
 hpcc:
-  error: 35
+  error: 80
   freqs:
     - 1200
     - 1467
