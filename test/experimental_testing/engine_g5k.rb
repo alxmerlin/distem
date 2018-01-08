@@ -15,7 +15,7 @@ require 'net/ssh/multi'
 
 DISTEMROOT = ARGV[0]
 
-ROOT= "/tmp/distem/test/experimental_testing"
+ROOT= "#{DISTEMROOT}/test/experimental_testing"
 USER = "root"
 GIT = (ARGV[1] == 'true')
 CLUSTER = ARGV[2]
