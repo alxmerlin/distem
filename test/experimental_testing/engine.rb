@@ -275,7 +275,7 @@ class ExperimentalTesting < MiniTest::Test
     install_distem
     puts "\n\n**** Running #{this_method} ****"
     Net::SSH.start(@@coordinator, USER) { |session|
-      launch_vnodes(session, {'pf_kind' => '2nodes', 'pnodes' => @@pnodes})
+      puts launch_vnodes(session, {'pf_kind' => '2nodes', 'pnodes' => @@pnodes})
       check_result(session.exec!("ruby #{File.join(ROOT,'exps/exp-latency.rb')} #{@@ref['latency']['error']} input #{MODE == 'g5k' ? 3:1}"))
     }
   end
